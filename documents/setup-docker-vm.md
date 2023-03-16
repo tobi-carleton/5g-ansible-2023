@@ -4,9 +4,10 @@
 
 * Follow this tutorial to create a Linux VM using Oracle VirtualBox - https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview
 * Before logging in to the new VM, in Oracle VirtualBox, set up and internal network connection as shown below (this is used so that Oracle VirtualBox VMs can communicate with each other)
-![](screenshots/zabbix-install/agent-pc/internal-network-connection.jpg)
+
+![](../screenshots/zabbix-install/agent-pc/internal-network-connection.jpg)
 * Start the VM and then go to the network settings. In the network settings window, assign an IP address for the VM on the internal network
-![](screenshots/zabbix-install/agent-pc/assign-internal-network-ip-address.JPG)
+![](../screenshots/zabbix-install/agent-pc/assign-internal-network-ip-address.JPG)
 * By default Oracle VirtualBox Linux installation will not give sudo access to your user account. To add your user account to the sudoers list, run the following commands:
     * su -
     * usermod -aG sudo myusername
@@ -16,7 +17,7 @@
 * Power on and off the VM for new sudo permissions to take effect
 * Create a docker hub account at the following URL (this is needed in order to pull base images required for the OpenAirInterface core network containers) - https://hub.docker.com/
 * Once the account has been created, use the Docker CLI through your terminal window to log in to your docker account
-![](screenshots/zabbix-install/agent-pc/docker-login.jpg)
+![](../screenshots/zabbix-install/agent-pc/docker-login.jpg)
 * After logging in, pull the following base images, logout, then enable forwarding of Docker container traffic to the outside world
     * docker pull ubuntu:bionic
     * docker pull mysql:8.0
@@ -28,7 +29,7 @@
     * sudo usermod -aG docker zabbix
     * sudo ufw allow 10050/tcp
 * Next edit the Zabbix agent configuration file (located in /etc/zabbix/zabbix_agent2.conf) to add the Zabbix server IP and listen port (here 198.162.1.3 has been used as what will become the Zabbix server IP address, use the value that matches what the IP address of your Zabbix server will be)
-![](screenshots/zabbix-install/agent-pc/edit-zabbix-agent-conf-file.JPG)
+![](../screenshots/zabbix-install/agent-pc/edit-zabbix-agent-conf-file.JPG)
 * Restart the Zabbix Agent for changes to take effect
     * sudo systemctl restart zabbix-agent2
 * Install SSH Server on the VM (this is required so that we can use Ansible Playbook on the Zabbix Server VM to configure/control the Docker Container VM)
