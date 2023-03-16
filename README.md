@@ -4,13 +4,6 @@ SYSC 5804 5G Ansible project for the Winter 2023 term
 
 
 ## Project steps
+- [ ] Install Zabbix agent on Linux VM - [](setup-docker-vm.md)
 
-- [ ] Enable WSL on Windows Comuputer and install Ubuntu Distribution on WSL
-
-<h4 align="center">OR</h4>
-
-- [ ] Use Oracle VirtualBox to create Ubuntu virtual machine (reference in useful-links doc)
-
-- [ ] Clone openairinterface5G core network 5G (oai-cn5g-fed) on Ubuntu machine - link available from useful link **openairinterface5G Docker deployment**
-
-- [ ] follow steps in **openairinterface5G Docker deployment** to build mini deployment of 5G core network with UE RAN emulator - link to tutorial: https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-fed/-/blob/master/docs/DEPLOY_SA5G_WITH_UERANSIM.md
+- [ ] Install Zabbix Server on Linux VM
