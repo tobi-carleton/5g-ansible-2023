@@ -22,10 +22,15 @@
 **Setup SSH-Server Access:** https://askubuntu.com/questions/218344/why-am-i-getting-a-port-22-connection-refused-error | https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04 | https://stackoverflow.com/questions/33280244/ssh-error-permission-denied-publickey-password-in-ansible | https://stackoverflow.com/questions/42462435/ansible-provisioning-error-using-a-ssh-password-instead-of-a-key-is-not-possibl
 
 
-**Ansible Playbook Command Module** https://docs.ansible.com/ansible/latest/collections/ansible/builtin/command_module.html
+**Ansible Playbook Command Module:** https://docs.ansible.com/ansible/latest/collections/ansible/builtin/command_module.html
 
 
-**UPF dependency package download** https://packagecloud.io/fdio/release
+**UPF dependency package download:** https://packagecloud.io/fdio/release
+
+**Pushing code to remote repository:** https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository
+
+**Overlay Networking between Containers on Separate VMs:** https://docs.docker.com/network/network-tutorial-overlay/#use-an-overlay-network-for-standalone-containers
+
 
 
 
