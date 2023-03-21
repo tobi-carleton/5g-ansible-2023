@@ -8,7 +8,7 @@ This goal of this project is to explore the use of containerization in the deplo
 ## Step-by-step documentation to replicate project work
 - [ ] Setup Docker Container VM [documentation](documents/setup-docker-vm.md)
 
-- [ ] Setup Zabbix Server VM
+- [ ] Setup Zabbix Server VM [documentation](documents/setup-server-vm.md)
 
 
 
