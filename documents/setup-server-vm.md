@@ -1,5 +1,8 @@
 # Set up Server VM
 
+* Choose an installation type
+    * [Oracle Virtual Box VM Installation](./oracle-virtual-box-vm-setup.md)
+    * [Digital Ocean VM Installation](./digital-ocean-vm-setup.md)
 * Install mySQL on the VM using the following commands
     * sudo apt update
     * sudo apt-get install mysql-server
