@@ -10,6 +10,8 @@ The goal of this project is to explore the use of containerization in the deploy
 
 The 5G core network repository used in the project is the OpenAirInterface5G repo provided by the OpenAirInterface software alliance. This repository provides Docker images of different 5G core network functions, as well as configuration files that can be used to deploy the core network functions as Docker containers. In the following sections, information about the tools that were integrated together in order to achieve the project enhancement goals of improved 5G core network reliability and performance monitoring is outlined. In addition, scenarios demonstrating the implementation and usefulness of these enhancements are also shown.
 
+![](documents/5GProjectPoster.png)
+
 ## Step-by-step documentation to replicate project environment
 * [Setup Docker Container VM](documents/setup-docker-vm.md)
 
